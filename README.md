@@ -1,8 +1,6 @@
-# Nichibutsu M68000/SNKM68000 for SiDi (DrWh0's Unofficial Core)
+#DrWh0`s unofficial arcade cores for Sidi (Mist ported)
 
-Unofficial port of Nichibutsu M68000/SNK SNKM68000 cores for Sidi
-
-These are an unofficial core conversions for Sidi FPGA, converted from MiST FPGA:
+Unofficial Sidi ports of various MiST FPGA arcade cores made by DrWh0
 
 Original MiSTer/MiST Core:
 https://github.com/Gehstock/Mist_FPGA/tree/master/Arcade_MiST/
