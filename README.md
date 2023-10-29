@@ -1,4 +1,4 @@
-# DrWh0`s unofficial arcade cores for Sidi (Mist ported)
+# DrWh0's unofficial arcade cores for Sidi (Mist ported)
 
 Unofficial Sidi ports of various MiST FPGA arcade cores by DrWh0
 
