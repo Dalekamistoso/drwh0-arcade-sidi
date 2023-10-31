@@ -1,4 +1,6 @@
-Only these rbf worked when I tested them (231031):
+# WARNING!! CORES STILL UNDER HEAVY DEVELOPMENT (2023-10-31):
+
+*** Only these cores worked when I tested them:
 
 Datsun 280 ZZZAP (US)
 Gun Fight
