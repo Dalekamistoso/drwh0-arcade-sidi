@@ -1,6 +1,6 @@
-# WARNING!! CORES STILL UNDER HEAVY DEVELOPMENT (2023-10-31):
+# WARNING!! CORES STILL UNDER HEAVY DEVELOPMENT!!:
 
-*** Only these cores worked when I tested them:
+# Only these cores worked when I tested them (2023-10-31):
 
 Datsun 280 ZZZAP (US)
 Gun Fight
