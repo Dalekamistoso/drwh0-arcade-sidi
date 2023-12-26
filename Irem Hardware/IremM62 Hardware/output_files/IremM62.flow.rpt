@@ -1,0 +1,145 @@
+Flow report for IremM62
+Tue Dec 26 20:17:02 2023
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------+
+; Flow Summary                                                                    ;
++------------------------------------+--------------------------------------------+
+; Flow Status                        ; Successful - Tue Dec 26 20:16:45 2023      ;
+; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
+; Revision Name                      ; IremM62                                    ;
+; Top-level Entity Name              ; IremM62_MiST                               ;
+; Family                             ; Cyclone IV E                               ;
+; Device                             ; EP4CE22F17C8                               ;
+; Timing Models                      ; Final                                      ;
+; Total logic elements               ; 21,854 / 22,320 ( 98 % )                   ;
+;     Total combinational functions  ; 21,011 / 22,320 ( 94 % )                   ;
+;     Dedicated logic registers      ; 9,935 / 22,320 ( 45 % )                    ;
+; Total registers                    ; 10003                                      ;
+; Total pins                         ; 70 / 154 ( 45 % )                          ;
+; Total virtual pins                 ; 0                                          ;
+; Total memory bits                  ; 210,432 / 608,256 ( 35 % )                 ;
+; Embedded Multiplier 9-bit elements ; 3 / 132 ( 2 % )                            ;
+; Total PLLs                         ; 2 / 4 ( 50 % )                             ;
++------------------------------------+--------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 12/26/2023 20:12:52 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; IremM62             ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                 ;
++-------------------------------------+--------------------------------+---------------+--------------+------------+
+; Assignment Name                     ; Value                          ; Default Value ; Entity Name  ; Section Id ;
++-------------------------------------+--------------------------------+---------------+--------------+------------+
+; COMPILER_SIGNATURE_ID               ; 27214204761410.170361797120836 ; --            ; --           ; --         ;
+; ENABLE_SIGNALTAP                    ; Off                            ; --            ; --           ; --         ;
+; IP_TOOL_NAME                        ; ALTPLL                         ; --            ; --           ; --         ;
+; IP_TOOL_NAME                        ; ALTPLL                         ; --            ; --           ; --         ;
+; IP_TOOL_VERSION                     ; 13.1                           ; --            ; --           ; --         ;
+; IP_TOOL_VERSION                     ; 13.1                           ; --            ; --           ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                             ; --            ; --           ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                              ; --            ; --           ; --         ;
+; MISC_FILE                           ; rtl/pll_aud.ppf                ; --            ; --           ; --         ;
+; MISC_FILE                           ; rtl/pll_mist.ppf               ; --            ; --           ; --         ;
+; NUM_PARALLEL_PROCESSORS             ; All                            ; --            ; --           ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing              ; --            ; --           ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing              ; --            ; --           ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                     ; --            ; --           ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                     ; --            ; --           ; --         ;
+; PARTITION_COLOR                     ; 16764057                       ; --            ; IremM62_MiST ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; IremM62_MiST ; Top        ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; IremM62_MiST ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)            ; --            ; --           ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; No Heat Sink With Still Air    ; --            ; --           ; --         ;
+; PRE_FLOW_SCRIPT_FILE                ; quartus_sh:rtl/build_id.tcl    ; --            ; --           ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --           ; --         ;
+; SEARCH_PATH                         ; common/CPU/T80/                ; --            ; --           ; --         ;
+; SEARCH_PATH                         ; common/mist/                   ; --            ; --           ; --         ;
+; SEARCH_PATH                         ; rtl/                           ; --            ; --           ; --         ;
+; SMART_RECOMPILE                     ; On                             ; Off           ; --           ; --         ;
+; TOP_LEVEL_ENTITY                    ; IremM62_MiST                   ; IremM62       ; --           ; --         ;
+; USE_SIGNALTAP_FILE                  ; output_files/snd.stp           ; --            ; --           ; --         ;
+; VHDL_INPUT_VERSION                  ; VHDL_2008                      ; VHDL_1993     ; --           ; --         ;
+; VHDL_SHOW_LMF_MAPPING_MESSAGES      ; Off                            ; --            ; --           ; --         ;
++-------------------------------------+--------------------------------+---------------+--------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:01:20     ; 1.0                     ; 4920 MB             ; 00:01:18                           ;
+; Fitter                    ; 00:02:22     ; 1.0                     ; 5199 MB             ; 00:02:20                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 4638 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:14     ; 1.0                     ; 4885 MB             ; 00:00:13                           ;
+; Total                     ; 00:03:58     ; --                      ; --                  ; 00:03:53                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; XCOM-1           ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; XCOM-1           ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; XCOM-1           ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; XCOM-1           ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off IremM62 -c IremM62
+quartus_fit --read_settings_files=off --write_settings_files=off IremM62 -c IremM62
+quartus_asm --read_settings_files=off --write_settings_files=off IremM62 -c IremM62
+quartus_sta IremM62 -c IremM62
+
+
+
