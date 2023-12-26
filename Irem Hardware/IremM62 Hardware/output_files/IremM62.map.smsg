@@ -1,3 +1,0 @@
-Info (10281): Verilog HDL Declaration information at mist_video.v(34): object "R" differs only in case from object "r" in the same scope
-Info (10281): Verilog HDL Declaration information at mist_video.v(35): object "G" differs only in case from object "g" in the same scope
-Info (10281): Verilog HDL Declaration information at mist_video.v(36): object "B" differs only in case from object "b" in the same scope
