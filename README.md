@@ -6,7 +6,7 @@ Features:
 
 * Updated DeMiSTfied sources from MiST FPGA repositories
 * Latest module specific cores (T80, T64, mist-modules...)
-* Alternate sources if better for compatibility
+* Alternate sources if better for compatibility (Amstrad by example uses Alternate Core)
 * Some adjustments for SiDi FPGA
 * Cores not available officially for SiDi (most of cases)
   
